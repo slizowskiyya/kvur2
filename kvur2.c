@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <math.h>
 
-void kvur(int a, int b, int c);
+void kvur(float a, float b, float c);
 
 int main()
 {
-    int a, b, c;
+    float a, b, c;
 
     printf("Input a: ");
     scanf("%d", &a);
@@ -19,7 +19,7 @@ int main()
     return 0;
 }
 
-void kvur(int a, int b, int c)
+void kvur(float a, float b, float c)
 {
     float d, x1, x2;
 
