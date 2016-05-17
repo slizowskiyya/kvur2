@@ -33,9 +33,8 @@ void kvur(int a, int b, int c)
 
     if(d>0)
     {
-    	d=sqrt(d);
-        x1=((-b)+d)/(2*a);
-        x2=((-b)-d)/(2*a);
+        x1=((-b)+sqrt(d))/(2*a);
+        x2=((-b)-sqrt(d))/(2*a);
         printf("x1 = %.2f\nx2 = %.2f", x1, x2);
     }
 
